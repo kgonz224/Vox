@@ -3,7 +3,8 @@ guid: 694f64e8ed033b74e8e6a8021bdfc81d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Voxel: {fileID: 4808984042057828, guid: 2231ddedbaac51a48af8148211484fb0, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
