@@ -226,7 +226,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.9490196, g: 0.49019608, b: 0.047058824, a: 1}
-  m_Intensity: 4
+  m_Intensity: 9
   m_Range: 20
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -488,9 +488,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 1578003
   thic: 2
-  tileSize: 8
-  len: 10
-  wid: 10
-  hgt: 6
+  tileSize: 16
+  len: 5
+  wid: 5
+  hgt: 4
   floorRoughness: 0.25
   wallRoughness: 0.25
