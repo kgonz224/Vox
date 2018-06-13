@@ -3,7 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class LevelRenderer : MonoBehaviour {
-    // this should be renamed to Room Renderer. This is a test for various functions that should be able to apply to all rooms.
+  
+    /*
+     * 
+     * 
+     * This file has been retired and is no longer used. Kept in the project to have a reference to build buildBuilding from
+     * 
+     * 
+     * 
+     * 
+     * 
+     * */
 
     //Global Values
     public Transform Voxel;

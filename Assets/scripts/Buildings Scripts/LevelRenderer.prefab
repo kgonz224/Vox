@@ -58,3 +58,10 @@ MonoBehaviour:
   floorColor2:
     serializedVersion: 2
     rgba: 4288057980
+  thic: 0
+  tileSize: 0
+  len: 0
+  wid: 0
+  hgt: 0
+  floorRoughness: 0
+  wallRoughness: 0
