@@ -40,7 +40,8 @@ public class buildingCell : MonoBehaviour {
 
     }
 
-    private void makeUninstantiatedCell() // creates the 6 empty panels  with their appropriate orientations
+
+    public void makeUninstantiatedCell() // creates the 6 empty panels  with their appropriate orientations
     {
         for ( int i =  0;i < 6; i++)
         {
@@ -50,35 +51,33 @@ public class buildingCell : MonoBehaviour {
             switch (i)
             {
 
-                case 0:
+                case 0: //bottom y-
                     sides[i] = new Panel(origin, Quaternion.identity, vox, size);   
                     break;
 
-                case 1:
+                case 1:// z-
                     sides[i] = new Panel(origin, Quaternion.Euler(0, 0, 90), vox, size);
                     break;
 
-                case 2:
+                case 2://x-
                     sides[i] = new Panel(origin, Quaternion.Euler(-90, 0, 0), vox, size);
                     break;
 
-                case 3:
+                case 3://z+
                     offset = new Vector3( size / 4f, size/4f, 0);
                     sides[i] = new Panel(origin + offset, Quaternion.Euler(0, 0, -90), vox, size);
                     break;
 
-                case 4:
+                case 4://x+
                     offset = new Vector3(0, size/4f, size / 4f);
                     sides[i] = new Panel(origin + offset, Quaternion.Euler(90, 0, 0), vox, size);
                     break;
 
-                case 5:
+                case 5://y+
 
                     offset = new Vector3(0, size / 4f, 0);
                     sides[i] = new Panel(origin + offset, Quaternion.identity, vox, size);
                     break;
-
-
 
             }
 
