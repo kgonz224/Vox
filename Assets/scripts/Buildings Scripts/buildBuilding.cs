@@ -1,4 +1,5 @@
-﻿using System.Collections;
+// Header
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -50,7 +51,7 @@ public class buildBuilding : MonoBehaviour {
 
     }
 
-    private void constructPanels()
+    private void constructPanels()  // It looks good
     {
 
         for (int x = 0; x < maxX; x++)
@@ -109,7 +110,7 @@ public class buildBuilding : MonoBehaviour {
         }
 
     }
-
+// Docs try new way we discussed
     private void planBuilding()
     {
         structure = new int[maxX, maxY, maxZ];
@@ -123,7 +124,7 @@ public class buildBuilding : MonoBehaviour {
      
 
         // only for the first floor
-        for (int l = 0 ; l > layerSize; l++)
+        for (int l = 0 ; l < layerSize; l++)
         {
 
             bool placed = false;
